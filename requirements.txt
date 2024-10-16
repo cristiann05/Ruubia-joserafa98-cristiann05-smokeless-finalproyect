@@ -1,3 +1,10 @@
+Flask==3.0.3
+Flask-SQLAlchemy==3.0.5
+Flask-Migrate==4.0.7
+Flask-Cors==5.0.0
+Flask-JWT-Extended==4.6.0
+gunicorn==23.0.0  # Para servir la aplicación
+alembic==1.13.3   # Si usas migraciones con Flask-Migrate
 certifi==2024.8.30
 cloudinary==1.41.0
 six==1.16.0
